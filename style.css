@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+  background-color: var(--dark-cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+  color: var(--very-dark-desaturated-blue);
+  width: 375px;
+  height: 670px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-div {
+  background-color: white;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  max-width: 326px;
+  height: 374px;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.victor {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -55px;
+}
+
+.h3 {
+  margin-top: 10px;
+}
+
+.age {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+
+p {
+  color: var(--dark-gray);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e8e9ec;
+  margin-top: 30px;
+}
+
+.stats {
+  max-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.followers,
+.likes,
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+.span {
+  color: #6b7082;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+}
